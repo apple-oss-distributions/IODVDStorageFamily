@@ -1,9 +1,7 @@
 /*
- * Copyright (c) 1998-2003 Apple Computer, Inc. All rights reserved.
+ * Copyright (c) 1998-2005 Apple Computer, Inc. All rights reserved.
  *
  * @APPLE_LICENSE_HEADER_START@
- * 
- * Copyright (c) 1999-2003 Apple Computer, Inc.  All Rights Reserved.
  * 
  * This file contains Original Code and/or Modifications of Original Code
  * as defined in and that are subject to the Apple Public Source License
@@ -56,12 +54,13 @@ enum
 typedef UInt8	DVDBookType;
 enum
 {
-	kDVDBookTypeROM		= 0x0,
-	kDVDBookTypeRAM		= 0x1,
-	kDVDBookTypeR		= 0x2,
-	kDVDBookTypeRW		= 0x3,
-	kDVDBookTypePlusRW	= 0x9,
-	kDVDBookTypePlusR	= 0xA
+	kDVDBookTypeROM					= 0x0,
+	kDVDBookTypeRAM					= 0x1,
+	kDVDBookTypeR					= 0x2,
+	kDVDBookTypeRW					= 0x3,
+	kDVDBookTypePlusRW				= 0x9,
+	kDVDBookTypePlusR				= 0xA,
+	kDVDBookTypePlusRDoubleLayer	= 0xE
 };
 
 enum DVDKeyClass
